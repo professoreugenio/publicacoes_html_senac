@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #0a3d62;
+            color: #fff;
+        }
+        .logo {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        .menu {
+            display: flex;
+            gap: 24px;
+        }
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            padding: 120px 40px;
+            background: linear-gradient(135deg, #0984e3, #74b9ff);
+            color: #fff;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        .hero p {
+            margin: 20px auto 0;
+            max-width: 700px;
+            font-size: 1.1rem;
+        }
+        section {
+            padding: 80px 40px;
+        }
+        section:nth-child(even) {
+            background: #f4f7fb;
+        }
+        .section-title {
+            margin-bottom: 24px;
+            font-size: 2rem;
+            color: #0a3d62;
+        }
+        .cards {
+            display: grid;
+            gap: 24px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+        .card {
+            padding: 24px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,.08);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: grid;
+            gap: 16px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            background: #0a3d62;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        @media (max-width: 640px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .menu {
+                flex-wrap: wrap;
+                gap: 16px;
+                margin-top: 16px;
+            }
+            .hero {
+                padding: 80px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Dev App</div>
+        <div class="menu">
+            <a href="#portfolio">Portfólio</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Desenvolvimento de Apps com impacto</h1>
+        <p>Crie soluções digitais completas, com design moderno e desempenho otimizado para web e dispositivos móveis.</p>
+    </header>
+
+    <section id="portfolio">
+        <h2 class="section-title">Portfólio</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>App financeiro</h3>
+                <p>Gestão de despesas, controle de orçamento e relatórios em tempo real.</p>
+            </div>
+            <div class="card">
+                <h3>Plataforma educacional</h3>
+                <p>Ambiente para cursos online, avaliações e acompanhamento de alunos.</p>
+            </div>
+            <div class="card">
+                <h3>Loja virtual</h3>
+                <p>Comércio eletrônico responsivo, com carrinho, checkout e integração de pagamentos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2 class="section-title">Serviços</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Desenvolvimento Mobile</h3>
+                <p>Aplicativos nativos e híbridos para iOS e Android.</p>
+            </div>
+            <div class="card">
+                <h3>Web Apps</h3>
+                <p>Sistemas web rápidos, seguros e acessíveis em qualquer navegador.</p>
+            </div>
+            <div class="card">
+                <h3>Design UI/UX</h3>
+                <p>Interfaces intuitivas e experiências de usuário centradas em resultados.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe">
+        <h2 class="section-title">Equipe</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Paulo</h3>
+                <p>Desenvolvedor front-end com foco em interfaces modernas.</p>
+            </div>
+            <div class="card">
+                <h3>Marina</h3>
+                <p>Especialista em back-end e integrações de sistemas.</p>
+            </div>
+            <div class="card">
+                <h3>Rafaela</h3>
+                <p>Designer e coordenadora de experiência do usuário.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2 class="section-title">Contato</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea rows="6" placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+</body>
+</html>
