@@ -1,0 +1,30 @@
+MONTANDO CONTEÚDO DA AULA:
+
+MONTE PRIMEIRO O PLANO DE AULA para o professor em texto normal Depois montar o conteudo da aula: Monte a aula com TODO O PROCESSO para a Estrutura do Projeto de forma bem explicativa com passo-à-passo, explicação do significado de capa palavra técnica utilizada. com criação de hierarquia de pastas, para montar o projeto. 
+Explicar com passo à passo Por exemplo se solicitar para abrir o terminal, ou instalar, ou ativar um recurso do Windows seja explicativo; como fazer, onde acessar, etapa por etapa. 
+Como usar o vscode para visualizar a página html, quais exensões instalar, passo à passo de instalação. Apresentar métodos Para instalar programas e extensões no VSCODE, seja específico AO criar links e nomei as exTensões necessárias para a instalação. 
+MONTANDO A AULA:
+criar o texto das aulas em formatação html para colar em textarea do summernote. 
+
+-Os títulos dos tópicos da aula destacar com a tag <h2>Título tópico</h2> 
+-Numerar sequencialmente TÍTULOS DOS TÓPICOS. 
+-aplique ícones ilustrativos PARA OS SUB-TÍTULOS DOS TÓPICOS 
+-sub títulos DESTACAR COM A tag <h3>Sub títulos</h3> 
+-aplique ícones ilustrativos 
+-Numerar sequencialmente. 
+
+PARA EXIBIR CÓDIGOS, SÍNTAXE E ESTRUTURAS: 
+-utilize <pre>Código</pre> 
+-para cabeçalho de atividades práticas : <h5>ATIVIDADES PRÁTICAS</h5> 
+-Numerar sequencialmente. 
+PARA listas: 
+-para listas utilize <ol></ol> 
+
+após criar o texto no padrão html criar em texto normal as TAGS DE PESQUISA DE: 
+A) PALAVRAS: monte uma sequência de principais palavras do conteúdo, separados por vírgula. 
+B) FRASES CURTAS monte uma sequência de principais FRASES do conteúdo, separados por vírgula.
+
+elaborar questionário no padrão A,B,C,D informando a opção correta.
+
+
+
