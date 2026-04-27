@@ -1,5 +1,5 @@
 :root{
-    --border-cinza :#818181;
+    --border-cinza :#d62a2a;
     --border-verde :#039a7e;
     --border-laranja :#ee8d04;
 }
@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -33,7 +34,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    font-weight: 400;
 }
 
 .container {
