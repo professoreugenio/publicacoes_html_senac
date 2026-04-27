@@ -1,0 +1,57 @@
+body {
+    background-color: #f9f9f9;
+}
+.topo  {
+    background-color: #041533;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: solid 4px #018275;
+    padding: 30px 0 20px;
+    line-height: 18px;
+}
+
+.topo h1 {
+    
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    color: #12a388;
+}
+
+.card ol, .card ul {
+    margin-bottom: 20px;
+}
+.card li {
+    margin-left: 40px;
+    line-height: 22px;
+}
+
+
+.border_cinza {
+    border-left: solid 5px var(--border-cinza);
+}
+.border_verde {
+    border-left: solid 5px var(--border-verde);
+}
+.border_laranja {
+    border-left: solid 5px var(--border-laranja);
+}
+
+.rodape {
+    background-color: #27213a;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding: 20px 0 10px;
+    text-align: center;
+}
