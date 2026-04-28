@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Newsletter</title>
+  <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+<body>
+
+  <header class="admin-topo">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Admin UC7</a>
+
+      <div class="menu">
+        <a href="../index.html">Site</a>
+        <a href="index.html">Dashboard</a>
+        <a href="newslleter.html" class="ativo">Newsletter</a>
+        <a href="perfilusuario.html">Perfil</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container admin-layout">
+
+    <aside class="admin-menu">
+      <a href="index.html">Dashboard</a>
+      <a href="newslleter.html" class="ativo">Newsletter</a>
+      <a href="perfilusuario.html">Perfil Usuário</a>
+      <a href="contato.html">Mensagens</a>
+      <a href="../index.html">Voltar ao site</a>
+    </aside>
+
+    <section class="admin-conteudo">
+
+      <div class="card">
+        <h2>Admin Newsletter</h2>
+        <p>Cadastre manualmente um novo inscrito na newsletter.</p>
+
+        <form class="formulario" action="#" method="post">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Nome do inscrito" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="E-mail do inscrito" required>
+
+          <label for="interesse">Interesse</label>
+          <select id="interesse" name="interesse" required>
+            <option value="">Selecione</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="flexbox">Flexbox</option>
+            <option value="php">PHP</option>
+          </select>
+
+          <button type="submit">Salvar inscrito</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Lista de inscritos</h2>
+
+        <div class="tabela-area">
+          <table class="tabela">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Interesse</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Maria Silva</td>
+                <td>maria@email.com</td>
+                <td>CSS</td>
+                <td><span class="badge">Ativo</span></td>
+              </tr>
+
+              <tr>
+                <td>João Santos</td>
+                <td>joao@email.com</td>
+                <td>HTML</td>
+                <td><span class="badge">Ativo</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Admin Newsletter - UC7</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Perfil Usuário</title>
+  <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+<body>
+
+  <header class="admin-topo">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Admin UC7</a>
+
+      <div class="menu">
+        <a href="../index.html">Site</a>
+        <a href="index.html">Dashboard</a>
+        <a href="newslleter.html">Newsletter</a>
+        <a href="perfilusuario.html" class="ativo">Perfil</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container admin-layout">
+
+    <aside class="admin-menu">
+      <a href="index.html">Dashboard</a>
+      <a href="newslleter.html">Newsletter</a>
+      <a href="perfilusuario.html" class="ativo">Perfil Usuário</a>
+      <a href="contato.html">Mensagens</a>
+      <a href="../index.html">Voltar ao site</a>
+    </aside>
+
+    <section class="admin-conteudo">
+
+      <div class="card">
+        <h2>Form Perfil</h2>
+        <p>Atualize os dados do usuário administrador.</p>
+
+        <form class="formulario" action="#" method="post">
+
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" value="Professor Eugênio" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" value="contato@exemplo.com" required>
+
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" name="telefone" value="(85) 99999-9999">
+
+          <label for="cargo">Cargo</label>
+          <input type="text" id="cargo" name="cargo" value="Professor de Desenvolvimento Web">
+
+          <label for="bio">Biografia</label>
+          <textarea id="bio" name="bio" rows="6">Professor e desenvolvedor web.</textarea>
+
+          <button type="submit">Atualizar perfil</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Admin Perfil - UC7</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio UC7 - Página Inicial</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+</head>
+<body>
+
+  <header class="topo">
+    <nav class="navbar">
+      <a href="index.html" class="logo">UC7 Web</a>
+
+      <div class="menu">
+        <a href="index.html" class="ativo">Início</a>
+        <a href="curso.html">Curso</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+        <a href="loginusuario.html">Login</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-conteudo">
+      <h1>Desafio de Estrutura HTML, CSS e Flexbox</h1>
+      <p>
+        Crie páginas modernas usando navegação, gradientes, formulários,
+        cards, imagens de fundo e layout responsivo.
+      </p>
+      <a href="curso.html" class="botao botao-destaque">Conhecer o curso</a>
+    </div>
+  </section>
+
+  <main class="container">
+
+    <section class="grid">
+      <article class="card">
+        <h2>HTML</h2>
+        <p>Estruture páginas com cabeçalho, menu, conteúdo principal, formulários e rodapé.</p>
+      </article>
+
+      <article class="card">
+        <h2>CSS</h2>
+        <p>Aplique cores, variáveis, gradientes, imagens de fundo, botões e cards.</p>
+      </article>
+
+      <article class="card">
+        <h2>Flexbox</h2>
+        <p>Organize os elementos em colunas flexíveis e responsivas.</p>
+      </article>
+    </section>
+
+    <section class="card alerta">
+      <h2>Form Newsletter</h2>
+      <p>Cadastre seu e-mail para receber novidades do curso.</p>
+
+      <form class="formulario" action="#" method="post">
+        <label for="nome-news">Nome</label>
+        <input type="text" id="nome-news" name="nome" placeholder="Digite seu nome" required>
+
+        <label for="email-news">E-mail</label>
+        <input type="email" id="email-news" name="email" placeholder="Digite seu e-mail" required>
+
+        <label for="interesse">Área de interesse</label>
+        <select id="interesse" name="interesse" required>
+          <option value="">Selecione uma opção</option>
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+        </select>
+
+        <button type="submit">Cadastrar newsletter</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>UC7 - Desenvolvimento de Aplicações Web</p>
+  </footer>
+
+</body>
+</html>

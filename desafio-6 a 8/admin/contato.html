@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Mensagens de Contato</title>
+  <link rel="stylesheet" href="../assets/css/global.css">
+</head>
+<body>
+
+  <header class="admin-topo">
+    <nav class="navbar">
+      <a href="index.html" class="logo">Admin UC7</a>
+
+      <div class="menu">
+        <a href="../index.html">Site</a>
+        <a href="index.html">Dashboard</a>
+        <a href="newslleter.html">Newsletter</a>
+        <a href="perfilusuario.html">Perfil</a>
+        <a href="contato.html" class="ativo">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container admin-layout">
+
+    <aside class="admin-menu">
+      <a href="index.html">Dashboard</a>
+      <a href="newslleter.html">Newsletter</a>
+      <a href="perfilusuario.html">Perfil Usuário</a>
+      <a href="contato.html" class="ativo">Mensagens</a>
+      <a href="../index.html">Voltar ao site</a>
+    </aside>
+
+    <section class="admin-conteudo">
+
+      <div class="card">
+        <h2>Mensagens recebidas</h2>
+        <p>Simulação de mensagens enviadas pelo formulário de contato.</p>
+
+        <div class="tabela-area">
+          <table class="tabela">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Assunto</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Ana Oliveira</td>
+                <td>ana@email.com</td>
+                <td>Informações sobre curso</td>
+                <td><span class="badge">Nova</span></td>
+              </tr>
+
+              <tr>
+                <td>Carlos Lima</td>
+                <td>carlos@email.com</td>
+                <td>Suporte</td>
+                <td><span class="badge">Respondida</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card alerta">
+        <h2>Responder contato</h2>
+
+        <form class="formulario" action="#" method="post">
+          <label for="email-resposta">E-mail do destinatário</label>
+          <input type="email" id="email-resposta" name="email" placeholder="Digite o e-mail" required>
+
+          <label for="resposta">Resposta</label>
+          <textarea id="resposta" name="resposta" rows="6" placeholder="Digite a resposta" required></textarea>
+
+          <button type="submit">Enviar resposta</button>
+        </form>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <p>Admin Contato - UC7</p>
+  </footer>
+
+</body>
+</html>
