@@ -90,3 +90,54 @@ body {
     background-color: #474747;
 
 }
+.dropdown {
+    position: relative;
+    background-color: #018275;
+    border-radius: 8px;
+}
+.dropdown a.linkdropdown {
+    display: block;
+    padding: 5px 30px 5px 20px;
+}
+.dropdown a.linkdropdown::after {
+content: "▼";
+position: absolute;
+right: 8px;
+font-size: 12px;
+top: 10px;
+color: #000000;
+}
+
+.dropdown:hover a.linkdropdown::after {
+content: "▲";
+position: absolute;
+right: 8px;
+font-size: 12px;
+top: 10px;
+color: #e5ff00;
+}
+
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    background-color: #474747;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    border-radius: 5px;
+    gap: 20;
+}
+
+.dropdown ul.submenu  li a {
+    display: block;
+     transition: 0.5s;
+}
+
+.dropdown ul.submenu  li a:hover {
+    background-color: #7d7d7d;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+    transition: 0.5s;
+}

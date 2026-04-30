@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula JavaScript - Variáveis, Operações e Funções</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <h1>Aula de JavaScript</h1>
+        <p>Variáveis, Operações e Funções</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>Aplicação 1: Mensagem de boas-vindas</h2>
+
+            <p>Digite seu nome para receber uma mensagem personalizada.</p>
+
+            <label for="nomeAluno">Nome do aluno:</label>
+            <input type="text" id="nomeAluno" placeholder="Exemplo: Ana Clara">
+
+            <button id="btnSaudar">Mostrar mensagem</button>
+
+            <p id="erroNome" class="mensagem erro"></p>
+            <p id="resultadoSaudacao" class="mensagem sucesso"></p>
+        </section>
+
+        <section class="card">
+            <h2>Aplicação 2: Calculadora de soma</h2>
+
+            <p>Digite dois números para calcular a soma.</p>
+
+            <label for="numero1">Primeiro número:</label>
+            <input type="number" id="numero1" placeholder="Exemplo: 10">
+
+            <label for="numero2">Segundo número:</label>
+            <input type="number" id="numero2" placeholder="Exemplo: 20">
+
+            <button id="btnSomar">Calcular soma</button>
+
+            <p id="erroSoma" class="mensagem erro"></p>
+            <p id="resultadoSoma" class="mensagem sucesso"></p>
+        </section>
+
+        <section class="card">
+            <h2>Aplicação 3: Média do aluno</h2>
+
+            <p>Digite três notas para calcular a média final.</p>
+
+            <label for="nota1">Nota 1:</label>
+            <input type="number" id="nota1" placeholder="Exemplo: 8">
+
+            <label for="nota2">Nota 2:</label>
+            <input type="number" id="nota2" placeholder="Exemplo: 7">
+
+            <label for="nota3">Nota 3:</label>
+            <input type="number" id="nota3" placeholder="Exemplo: 9">
+
+            <button id="btnMedia">Calcular média</button>
+
+            <p id="erroMedia" class="mensagem erro"></p>
+            <p id="resultadoMedia" class="mensagem sucesso"></p>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Prática de JavaScript com HTML e CSS</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
