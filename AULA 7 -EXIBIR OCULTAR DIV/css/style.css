@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #00bb9c;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+h2 {
+    color: #112240;
+}
+
+button {
+    background-color: #00bb9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #009f85;
+}
+
+#conteudo {
+    width: 450px;
+    margin: 20px auto;  
+    
+}
+
+.oculto {
+    display: none; /* A div começa oculta */
+    opacity: 0;
+    
+    transition: opacity 1s ease, transform 1s ease;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 250px;
+    
+}
+
+.visivel {
+    display: block;
+    opacity: 1;
+    transition: opacity 1s ease, transform 1s ease;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 250px;
+}
