@@ -1,0 +1,30 @@
+[
+    {
+        "img": "img/pc.png",
+        "nome": "Notebook Lenovo",
+        "categoria": "Informática",
+        "preco": 3200.00,
+        "estoque": 8
+    },
+    {
+        "img": "img/mouse.png",
+        "nome": "Mouse Gamer",
+        "categoria": "Periféricos",
+        "preco": 89.90,
+        "estoque": 35
+    },
+    {
+        "img": "img/teclado.png",
+        "nome": "Teclado Mecânico",
+        "categoria": "Periféricos",
+        "preco": 249.90,
+        "estoque": 14
+    },
+    {
+        "img": "img/monitor.png",
+        "nome": "Monitor 24 polegadas",
+        "categoria": "Monitores",
+        "preco": 899.90,
+        "estoque": 6
+    }
+]

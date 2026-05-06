@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "HTML e CSS",
+        "arquivo": "img/html-css.png",
+        "descricao": "Imagem representando estrutura e estilo de páginas web."
+    },
+    {
+        "titulo": "JavaScript",
+        "arquivo": "img/javascript.png",
+        "descricao": "Imagem representando interatividade com JavaScript."
+    },
+    {
+        "titulo": "PHP e MySQL",
+        "arquivo": "img/php-mysql.png",
+        "descricao": "Imagem representando programação com banco de dados."
+    },
+    {
+        "titulo": "React",
+        "arquivo": "img/react.png",
+        "descricao": "Imagem representando interfaces modernas com React."
+    }
+]

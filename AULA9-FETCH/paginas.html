@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch - Carregar Páginas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>Fetch Páginas</h2>
+
+        <div class="menu">
+            <a href="index.html">Início</a>
+            <a href="imagens.html">Imagens</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="funcionarios.html">Funcionários</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Carregar páginas HTML</h1>
+        <p>Clique nos botões para carregar páginas dentro da div.</p>
+    </header>
+
+    <main class="container">
+
+        <div class="botoes">
+            <button data-pagina="conteudos/home.html">Home</button>
+            <button data-pagina="conteudos/sobre.html">Sobre</button>
+            <button data-pagina="conteudos/contato.html">Contato</button>
+        </div>
+
+        <div id="conteudo" class="area-resultado">
+            <p>Escolha uma página para carregar.</p>
+        </div>
+
+    </main>
+
+    <script src="js/paginas.js"></script>
+</body>
+</html>

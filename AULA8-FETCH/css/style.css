@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f6fb;
+    color: #222;
+}
+
+.topo {
+    background: linear-gradient(135deg, #112240, #00bb9c);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.topo h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.topo p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.menu {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    flex-wrap: wrap;
+}
+
+.btn-menu {
+    border: none;
+    background: #112240;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-menu:hover {
+    background: #00bb9c;
+}
+
+.btn-menu.ativo {
+    background: #00bb9c;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.conteudo {
+    background: white;
+    min-height: 300px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    animation: aparecer 0.3s ease;
+}
+
+.conteudo h2 {
+    color: #112240;
+    margin-top: 0;
+}
+
+.conteudo p {
+    line-height: 1.6;
+}
+
+.card-info {
+    background: #eef8f9;
+    border-left: 5px solid #00bb9c;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.erro {
+    background: #fff1f1;
+    color: #b91c1c;
+    border: 1px solid #fca5a5;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.carregando {
+    color: #112240;
+    font-weight: bold;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .topo h1 {
+        font-size: 28px;
+    }
+
+    .btn-menu {
+        width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carregar Páginas dentro de uma Div</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <h1>Painel com Load de Páginas</h1>
+        <p>Carregando arquivos HTML dentro de uma div pelo id</p>
+    </header>
+
+    <nav class="menu">
+        <button class="btn-menu ativo" data-pagina="paginas/home.html">Home</button>
+        <button class="btn-menu" data-pagina="paginas/sobre.html">Sobre</button>
+        <button class="btn-menu" data-pagina="paginas/cursos.html">Cursos</button>
+        <button class="btn-menu" data-pagina="paginas/contato.html">Contato</button>
+    </nav>
+
+    <main class="container">
+        <div id="conteudo" class="conteudo">
+            <p>Carregando conteúdo...</p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

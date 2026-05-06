@@ -1,0 +1,30 @@
+[
+    {
+        "img": "img/funcf1.png",
+        "nome": "Ana Souza",
+        "cargo": "Desenvolvedora Front-end",
+        "setor": "Tecnologia",
+        "email": "ana@empresa.com"
+    },
+    {
+        "img": "img/funcm1.png",
+        "nome": "Carlos Lima",
+        "cargo": "Analista de Sistemas",
+        "setor": "TI",
+        "email": "carlos@empresa.com"
+    },
+    {
+        "img": "img/funcf2.png",
+        "nome": "Marina Alves",
+        "cargo": "Designer UI",
+        "setor": "Design",
+        "email": "marina@empresa.com"
+    },
+    {
+        "img": "img/funcm3.png",
+        "nome": "João Pereira",
+        "cargo": "Suporte Técnico",
+        "setor": "Atendimento",
+        "email": "joao@empresa.com"
+    }
+]
