@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    background: linear-gradient(135deg, #112240, #0d6efd);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}

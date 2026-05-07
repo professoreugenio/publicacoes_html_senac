@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro com localStorage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h2>LocalStorage JS</h2>
+
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="lista.html">Lista</a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <h1>Cadastro de Alunos com localStorage</h1>
+        <p>Salve dados no navegador usando JavaScript.</p>
+    </header>
+
+    <main class="container">
+
+        <section id="cadastro" class="card">
+            <h2>Cadastrar aluno</h2>
+
+            <label for="nomeAluno">Nome do aluno:</label>
+            <input type="text" id="nomeAluno" placeholder="Digite o nome">
+
+            <label for="idadeAluno">Idade:</label>
+            <input type="number" id="idadeAluno" placeholder="Digite a idade">
+
+            <label for="cursoAluno">Curso:</label>
+            <input type="text" id="cursoAluno" placeholder="Digite o curso">
+
+            <button id="btnSalvar">Salvar aluno</button>
+
+            <div id="mensagem" class="mensagem">
+                Preencha os dados e clique em salvar.
+            </div>
+        </section>
+
+        <section id="lista" class="card">
+            <div class="topo-lista">
+                <h2>Alunos cadastrados</h2>
+                <button id="btnLimpar" class="btn-danger">Limpar tudo</button>
+            </div>
+
+            <div id="listaAlunos" class="lista-alunos">
+                <p>Nenhum aluno cadastrado.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
